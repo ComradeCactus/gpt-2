@@ -1,3 +1,9 @@
+## Customized Tweaks
+literally just ran it through the tensorflow upgrade script to v2, seems to work with ampere GPUs now
+
+requires cuda 11.5 and cudnn8, and I've been running on python 3.8
+
+I have no clue what I'm doing I'm just messing around
 ## Fine tuning on custom datasets
 
 Reference:  ["Beginner’s Guide to Retrain GPT-2 (117M) to Generate Custom Text Content"](https://medium.com/@ngwaifoong92/beginners-guide-to-retrain-gpt-2-117m-to-generate-custom-text-content-8bb5363d8b7f)

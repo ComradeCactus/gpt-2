@@ -24,7 +24,7 @@ if tf.VERSION >= '2':
                                                   'disable_meta_optimizer': True
                                                   })
 
-
+sys.path.append('./src')
 import model, sample, encoder
 from load_dataset import load_dataset, Sampler
 

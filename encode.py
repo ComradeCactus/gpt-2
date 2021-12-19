@@ -3,9 +3,11 @@
 #  PYTHONPATH=src ./encode.py <file|directory|glob> /path/to/output.npz
 #  PYTHONPATH=src ./train --dataset /path/to/output.npz
 
+import sys
 import argparse
 import numpy as np
 
+sys.path.append('./src')
 import encoder
 from load_dataset import load_dataset
 
